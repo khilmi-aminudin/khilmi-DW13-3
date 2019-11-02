@@ -20,9 +20,9 @@
 
 
         if ($h == 5000 && $qty > 10) {
-            $disc = $qty * $h - 500;
+            $disc = $h*$qty - $qty * 500;
         }elseif ($h == 3500 && $qty > 5 ) {
-            $disc = $qty * $h * 0.5;
+            $disc = $qty*$h * $h * 0.5;
         }else {
             echo 'barang ini belum ada diskon';
         }
