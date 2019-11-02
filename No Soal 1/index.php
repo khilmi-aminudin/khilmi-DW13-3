@@ -26,32 +26,32 @@
 <table class="table">
   <thead class="thead-dark">
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">index Array</th>
+      <th scope="col">Nilai Array</th>
     </tr>
   </thead>
-  <tbody>
+     <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <th scope="row"><?= $arr[0] ?></th>
+      <td><?= $arr_1 ?></td>
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <th scope="row"><?= $arr[1] ?></th>
+      <td><?= $arr_2 ?></td>
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
+      <th scope="row"><?= $arr[2] ?></th>
+      <td><?= $arr_3 ?></td>
     </tr>
-  </tbody>
+    <tr>
+      <th scope="row"><?= $arr[3] ?></th>
+      <td><?= $arr_4 ?></td>
+    </tr>
+    <tr>
+      <th scope="row"><?= $arr[4] ?></th>
+      <td><?= $arr_5 ?></td>
+    </tr>
+    </tbody>
 </table>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
