@@ -30,4 +30,4 @@
         echo "Kualitas barang ".$barang." jumlah Barang ".$qty." maka anda mendapatkan diskon sebesar ".$disc;
     }
 
-    barang(A,11);
+    barang("A",11);
