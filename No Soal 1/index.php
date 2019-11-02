@@ -3,6 +3,8 @@
     $arr    = [1,2,3,4,5];
 
     $hasil  = array_sum($arr);
+    $max    = max($arr);
+    $min    = min($arr);
 
     $arr_1 = $hasil-$arr[0];
     $arr_2 = $hasil-$arr[1];
